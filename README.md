@@ -17,3 +17,7 @@ Notes:
 * The server identifies whether an incoming connection is from a Websocket and genreates the handshake accordingly.
 * Communication between the client and server is sent in XML format. The client need not be a web browser, but could also be a mobile app that uses the same format for communication.
 * The server is written in Python because I originally developed it on a Rasperry Pi that output the player's positions to an LED strip via SPI.
+
+Known Issues:
+* Occasionally the Websocket handshake returned by the server is invalid and the client must press Login again.
+* The gameOver panel on the client is unfinished.
