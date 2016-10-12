@@ -1,4 +1,4 @@
-# samurai
+# Samurai
 Samurai is a demonstration of realtime communication between a python server and html5 clients.
 
 The server creates a thread running a Python HTTPServer to send the interface to clients. It then opens a socket on an arbitrary port that listens for clients to connect through the web page. Once two players select "Play", the server creates a new thread that handles their game. Players' account data is stored and manipulated through Python's SQLite module.
